@@ -73,6 +73,12 @@ build CMakeFiles/BPlusTree.dir/BPlusTree.cpp.obj: CXX_COMPILER__BPlusTree_Debug 
   OBJECT_DIR = CMakeFiles\BPlusTree.dir
   OBJECT_FILE_DIR = CMakeFiles\BPlusTree.dir
 
+build CMakeFiles/BPlusTree.dir/Node.cpp.obj: CXX_COMPILER__BPlusTree_Debug D$:/CLionProjects/BPlusTree/Node.cpp || cmake_object_order_depends_target_BPlusTree
+  DEP_FILE = CMakeFiles\BPlusTree.dir\Node.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\BPlusTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\BPlusTree.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BPlusTree
@@ -81,7 +87,7 @@ build CMakeFiles/BPlusTree.dir/BPlusTree.cpp.obj: CXX_COMPILER__BPlusTree_Debug 
 #############################################
 # Link the executable BPlusTree.exe
 
-build BPlusTree.exe: CXX_EXECUTABLE_LINKER__BPlusTree_Debug CMakeFiles/BPlusTree.dir/main.cpp.obj CMakeFiles/BPlusTree.dir/BPlusTree.cpp.obj
+build BPlusTree.exe: CXX_EXECUTABLE_LINKER__BPlusTree_Debug CMakeFiles/BPlusTree.dir/main.cpp.obj CMakeFiles/BPlusTree.dir/BPlusTree.cpp.obj CMakeFiles/BPlusTree.dir/Node.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BPlusTree.dir
